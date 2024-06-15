@@ -64,6 +64,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 
         if (rst.next()){
             String id = rst.getString("id");
+            System.out.println("ff");
             return  id;
         }
         return  null;
